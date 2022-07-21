@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color: rgb(228, 228, 228);
+}
+div{
+    margin-left: 5px;
+}
+#root{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+    margin: 100px auto;
+    border-radius: 6px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.display-root-element{
+    display: flex;
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    margin-left: 0;
+}
+.tag{
+    width: fit-content;
+    font-size: 18px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 5px;
+    margin-left: 16px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.tag-input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin: 5px 0 5px 16px;
+    padding: 5px;
+    padding-left: 0;
+}
+.search-input{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+.search-style{
+    width: 96%;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin: 6px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.bottom-space{
+    margin-bottom: 5px;
+}
+.displayStud{
+    display: flex;
+    flex-direction: column;
+}
+.space-around{
+    margin-left: 22px;
+}
+.nodisplay{
+  display: none;
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+img{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 50%;
+    width: 70px;
+    margin: 10px 0;
+}
+h3, p{
+    font-weight: 200;
+    color: #000;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: 2px;
+}
+p{
+    margin-top: 6px;
+}
+p span{
+    color: #000;
+}
+.grade-btn{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: gray;
+    font-size: 28px;
+    font-weight: 500;
+    height: fit-content;
+    cursor: pointer;
+}
